@@ -1,6 +1,6 @@
 #Backend
-webhook-repo/vene/
-webhook-repo/.env/
+webhook-repo/venv/
+webhook-repo/.env
 
 #Frontend
 frontend/node_modules/
