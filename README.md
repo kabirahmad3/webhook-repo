@@ -31,38 +31,31 @@ Frontend :-
 React (Vite)
 Axios
 
-Project Structure :-
-
-TechStax-Assessment/
-│
-├── frontend/              # React application
-│   ├── src/
-│   ├── package.json
-│
-├── webhook-repo/          # Flask backend
-│   ├── app.py
-│   ├── requirements.txt
-│
-└── README.md
-
 
 Backend Setup (Flask) :-
 
-1️. Clone Repository
+1️. Clone Repository:
+
 git clone https://github.com/yourusername/TechStax-Assessment.git
+
 cd TechStax-Assessment/webhook-repo
 
-2️. Create Virtual Environment
+2️. Create Virtual Environment:
+
 python -m venv venv
 
 Activate:
 
-Windows (PowerShell)
+Windows (PowerShell):
+
 .\venv\Scripts\activate
-Windows (CMD)
+
+Windows (CMD):
+
 venv\Scripts\activate.bat
 
 3️. Install Dependencies
+
 pip install -r requirements.txt
 
 4️. Create Environment Variables
@@ -74,6 +67,7 @@ MONGO_URI=your_mongodb_connection_string
 Note: .env is intentionally not included in the repository for security reasons.
 
 5️. Run Backend
+
 python app.py
 
 Server runs at:
