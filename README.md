@@ -8,22 +8,6 @@ Displays repository activity in a React UI
 Polls backend every 15 seconds to show latest updates
 The system demonstrates end-to-end integration between GitHub Webhooks, Flask backend, MongoDB database, and a React frontend.
 
-Architecture :-
-
-GitHub (action-repo)
-
-        ↓ Webhook
-
-Flask Backend (/webhook)
-
-        ↓
-        
-MongoDB Atlas
-
-        ↓
-        
-React Frontend (Polling every 15 sec)
-
 
 Tech Stack :-
 
