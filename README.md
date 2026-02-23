@@ -11,24 +11,38 @@ The system demonstrates end-to-end integration between GitHub Webhooks, Flask ba
 Architecture :-
 
 GitHub (action-repo)
+
         ↓ Webhook
+
 Flask Backend (/webhook)
+
         ↓
+        
 MongoDB Atlas
+
         ↓
+        
 React Frontend (Polling every 15 sec)
+
 
 Tech Stack :-
 
 Backend:-
-Python 
+
+Python
+
 Flask
+
 MongoDB Atlas
+
 Flask-CORS
+
 GitHub Webhooks
 
 Frontend :-
+
 React (Vite)
+
 Axios
 
 
